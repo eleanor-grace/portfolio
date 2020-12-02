@@ -3,14 +3,34 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-html { 
+
+/*html { 
   background: url(../images/bg3.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+*/
 
+.background {
+  
+  position:absolute;
+    
+  display
+  :
+   block
+  ;
+    
+  top
+  : 0;
+    
+  left
+  : 0;
+    
+  z-index
+  : 0;
+  }
 .flex-container  {
   display: flex;
   justify-content: space-between;
@@ -131,6 +151,7 @@ html {
   border: 3px solid rgb(28, 24, 22);
   background-color: rgba(238,238,238,0.85);
   align-self: center;
+  z-index: 1;
 }
 
 .call-to-action p {

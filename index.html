@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 <script src="https://kit.fontawesome.com/27b56f4bac.js" crossorigin="anonymous"></script>
 
 
@@ -43,4 +42,20 @@
 
   </div>
 </body>
+
+<canvas class="background"></canvas>
+<script src="js/particles.min.js"
+></script>
+<script type="text/javascript">
+  window.onload = function() {
+    Particles.init
+({
+    selector: '.background',
+    maxParticles: 250,
+    connectParticles: true,
+    color: ['#D8AE47', '#1c1816', '#2b2826']
+
+  });
+};
+</script>
 </html>
