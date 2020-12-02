@@ -129,12 +129,33 @@ html {
 .call-to-action {
   
   border: 3px solid rgb(28, 24, 22);
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(238,238,238,0.85);
   align-self: center;
 }
 
 .call-to-action p {
-  font-size: 40px;
+  font-size: 35px;
   color: rgb(28, 24, 22);
   padding: 10px 30px;
+  font-weight: 600;
+}
+
+.call-to-action:hover {
+  transition: all 1s;
+  background-color:rgba(216, 174, 71, 0.85);
+
+
+}
+
+.call-to-action:hover p {
+  transition: 1s;
+  
+}
+
+.fa-arrow-right {
+  font-size: 30px;
+}
+.call-to-action:hover .fa-arrow-right {
+  transition: 1s;
+  transform: rotate(90deg);
 }
