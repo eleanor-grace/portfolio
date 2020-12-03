@@ -13,6 +13,7 @@ font-family: 'Raleway', sans-serif;
 }
 */
 
+
 .background {
   
   position:absolute;
@@ -30,8 +31,9 @@ font-family: 'Raleway', sans-serif;
     
   z-index
   : 0;
+  height: 100vh;
   }
-.flex-container  {
+.navbar  {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,4 +181,10 @@ font-family: 'Raleway', sans-serif;
 .call-to-action:hover .fa-arrow-right {
   transition: 1s;
   transform: rotate(90deg);
+}
+
+.section-about-content {
+  height: 100vh;
+  width: 100vw;
+ 
 }
